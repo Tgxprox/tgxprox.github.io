@@ -1,0 +1,23 @@
+{
+  "name": "tgx-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "dayjs": "^1.11.13",
+    "sass": "^1.86.0",
+    "vue": "^3.5.13"
+  }
+}

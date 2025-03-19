@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* 标题 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #54bbe4 10%, #4C97E0 100%);
+
+  /* 图标背景 */
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #54bbe4 10%, #4C97E0 100%);
+  --vp-home-hero-image-filter: blur(80px);
+}
+
+.loyout-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 渐变按钮 */
+.gradient-btn {
+  background: linear-gradient(135deg, #3B82F6 0%, #6366F1 100%);
+  border: none;
+  transition: transform 0.2s;
+}
+
+/* 流光按钮 */
+.glow-btn {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #3B82F6;
+}
+
+.glow-btn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transform: rotate(45deg);
+  animation: glow 3s infinite;
+}
+
+/* 高亮文字 */
+.highlight {
+  color: #3B82F6;
+  font-weight: 600;
+}
+
+/* 数字计数器样式 */
+.counter {
+  font-family: 'DIN Alternate';
+  background: linear-gradient(90deg, #3B82F6, #10B981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 图标动画 */
+.features .icon {
+  font-size: 2.2em;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    transform: translate(-30%, -30%) rotate(45deg);
+  }
+
+  100% {
+    transform: translate(30%, 30%) rotate(45deg);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
