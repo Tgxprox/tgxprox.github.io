@@ -85,9 +85,8 @@ graph TD
 - YouTube：<a href="https://youtube.com/@tgxproy?si=nSpwCm7ATv8ts9sQ" target="_blank" rel="noopener noreferrer">@Tgxproy</a>
 - TikTok：<a href="https://www.tiktok.com/@tgxpros?_t=ZT-8unyEL8hVRW&_r=1" target="_blank" rel="noopener noreferrer">@Tgxpros</a>
 - BiliBili：<a href="https://x.com/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
-</a> 
-- 通过 Gmail 联系我们：<a href="https://mail.google.com/mail/?view=cm&to=tgxpro.s@gmail.com&su=主题&body=正文">
- tgxpro.s@gmail.com
+</a>
+
 ---
 
 > 「让Telegram流量增长变得简单」- TG-X Pro Development Team
