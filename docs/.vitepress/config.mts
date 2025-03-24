@@ -4,6 +4,12 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "TG-X",
   description: "Telegram 超级工具",
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true,
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -36,7 +42,10 @@ export default defineConfig({
       {
         text: "账号管理",
         collapsed: false,
-        items: [{ text: "🛡️ 批量导入", link: "/account/manage.md" }],
+        items: [
+          { text: "⚡️ 批量导入", link: "/account/upload.md" },
+          { text: "🛡️ 账号管理", link: "/account/manages.md" },
+        ],
       },
       {
         text: "群组管理",
