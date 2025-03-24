@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/features" },
+      { text: "文档", link: "/download" },
       {
         text: "v1.0.0",
         items: [
@@ -22,6 +22,18 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "🛠️ 下载安装",
+        link: "/download.md",
+      },
+      {
+        text: "🚀 激活使用",
+        link: "/activeuse.md",
+      },
+      {
+        text: "🛜 IP代理池",
+        link: "/ipproxy.md",
+      },
+      {
         text: "账号管理",
         collapsed: false,
         items: [{ text: "🛡️ 批量导入", link: "/account/manage.md" }],
@@ -32,7 +44,7 @@ export default defineConfig({
         items: [
           { text: "📡 群组监听", link: "/group/monitor.md" },
           { text: "🎯 定时群发", link: "/group/masstexting.md" },
-          { text: "🚀 批量创建", link: "/group/create.md" },
+          // { text: "🚀 批量创建", link: "/group/create.md" },
           { text: "⛏️ 批量采集", link: "/group/gather.md" },
           { text: "🤖 批量强拉", link: "/group/Invite.md" },
           { text: "🤝 批量加群", link: "/group/join.md" },
@@ -58,7 +70,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/Tgxprox/TG-X-Pro" },
     ],
 
     footer: {

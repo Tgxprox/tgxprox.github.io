@@ -10,16 +10,16 @@ hero:
     - 精准获客率提升300%
     - 企业级安全防护
   image:
-    src: assets/tgx.png
+    src: assets/tgxvpro.png
     alt: TG-X智能营销系统
   actions:
     - theme: alt
-      text: 🔍 查看功能全景
-      link: /features
-      class: glow-btn
-    - theme: alt
       text: 💁 联系我们
       link: /contact
+      class: glow-btn
+    - theme: alt
+      text: ⚡️ 下载软件
+      link: https://github.com/TGX-Android/Telegram-X/releases/download/v0.26.9.1730/Telegram-X-0.26.9.1730.apk
       class: glow-btn
     - theme: brand
       text: 🚀 立即获取

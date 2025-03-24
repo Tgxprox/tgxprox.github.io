@@ -89,9 +89,6 @@ graph TD
 - BiliBili：<a href="https://x.com/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
 </a> 
 
-## 📜 许可协议
-本系统采用商业许可，详见 [LICENSE](LICENSE) 文件
-
 ---
 
 > 「让Telegram流量增长变得简单」- TG-X Pro Development Team
