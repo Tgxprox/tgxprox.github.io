@@ -85,7 +85,9 @@ graph TD
 - YouTube：<a href="https://youtube.com/@tgxproy?si=nSpwCm7ATv8ts9sQ" target="_blank" rel="noopener noreferrer">@Tgxproy</a>
 - TikTok：<a href="https://www.tiktok.com/@tgxpros?_t=ZT-8unyEL8hVRW&_r=1" target="_blank" rel="noopener noreferrer">@Tgxpros</a>
 - BiliBili：<a href="https://x.com/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
-</a>
+
+## 群组二维码
+  <img src="docs/assets/erwm.png" width="200" alt="TG-X Pro Logo">
 
 ---
 
