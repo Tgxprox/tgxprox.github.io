@@ -1,7 +1,7 @@
 # 🔥 TG-X Pro 智能营销引擎
 
 <p align="center">
-  <img src="docs/assets/tgx.svg" width="200" alt="TG-X Pro Logo">
+  <img src="docs/assets/tgxpro.svg" width="200" alt="TG-X Pro Logo">
 </p>
 
 <h3 align="center">Telegram生态智能增长系统｜日均百万级消息触达｜企业级安全架构</h3>
@@ -80,15 +80,14 @@ graph TD
 
 ## 🤝 加入我们
 
-- 通过 Gmail 联系我们：<a href="https://mail.google.com/mail/?view=cm&to=tgxpro.s@gmail.com&su=主题&body=正文">
- tgxpro.s@gmail.com
 - TG-X 官方账号：<a href="https://t.me/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
 - 推特（X）：<a href="https://x.com/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
 - YouTube：<a href="https://youtube.com/@tgxproy?si=nSpwCm7ATv8ts9sQ" target="_blank" rel="noopener noreferrer">@Tgxproy</a>
 - TikTok：<a href="https://www.tiktok.com/@tgxpros?_t=ZT-8unyEL8hVRW&_r=1" target="_blank" rel="noopener noreferrer">@Tgxpros</a>
 - BiliBili：<a href="https://x.com/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
 </a> 
-
+- 通过 Gmail 联系我们：<a href="https://mail.google.com/mail/?view=cm&to=tgxpro.s@gmail.com&su=主题&body=正文">
+ tgxpro.s@gmail.com
 ---
 
 > 「让Telegram流量增长变得简单」- TG-X Pro Development Team
