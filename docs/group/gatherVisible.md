@@ -1,7 +1,7 @@
-# 🤝 批量加群
+# ⛏️ 批量采集（可见）
 
 ::: tip
-千人级并发加群｜智能路由算法｜<span class="counter">每小时3000+</span>精准加群｜<span class="highlight">98%成功率保障</span>
+可创建批量任务进行一键导出群出成员，适用于可见用户群中，支持超 10,000 + 的群组一键导出
 :::
 
 ## 视频查看
@@ -12,7 +12,16 @@
 - [TikTok](https://t.me/tgxproc/14)
 - [哔哩哔哩](https://t.me/tgxproc/14)
 
-## 导入群组 / 频道
+## 创建任务
+
+::: warning
+这里必须选择已登陆的账号才能执行
+:::
+
+![](../assets/caiji_kj/caiji_kj_1.png)
+
+
+## 导入群组
 
 ![](../assets/join/join_1.png)
 
@@ -42,10 +51,15 @@
 
 ![](../assets/join/join_6.png)
 
+
 ## 设置延迟
 
 ::: warning
 这里的单位是 秒
 :::
 
-![](../assets/join/join_7.png)
+![](../assets/caiji_kj/caiji_kj_3.png)
+
+## 查看任务
+
+![](../assets/caiji_kj/caiji_kj_4.png)

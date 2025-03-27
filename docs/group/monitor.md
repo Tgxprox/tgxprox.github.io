@@ -4,6 +4,14 @@
 <span class="counter">2000+</span>群组同步监听｜关键词智能触发系统｜即时私信/自动回复/精准转发｜用户画像实时生成
 :::
 
+## 视频查看
+
+- [Telegram](https://t.me/tgxproc/14)
+- [YouTube](https://t.me/tgxproc/14)
+- [Twitter](https://t.me/tgxproc/14)
+- [TikTok](https://t.me/tgxproc/14)
+- [哔哩哔哩](https://t.me/tgxproc/14)
+
 ## 创建任务
 
 ![](../assets/monitor/jiantin_1.png)

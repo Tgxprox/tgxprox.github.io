@@ -4,6 +4,14 @@
 多协议混合操作｜自然增长算法｜真人行为模拟｜日均<span class="counter">万级用户</span>导入
 :::
 
+## 视频查看
+
+- [Telegram](https://t.me/tgxproc/14)
+- [YouTube](https://t.me/tgxproc/14)
+- [Twitter](https://t.me/tgxproc/14)
+- [TikTok](https://t.me/tgxproc/14)
+- [哔哩哔哩](https://t.me/tgxproc/14)
+
 ## 导入用户
 
 ![](../assets/Invite/qiangla_1.png)

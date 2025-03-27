@@ -4,6 +4,14 @@
  分布式账号管理系统｜IP隔离技术实现零关联｜<span class="highlight">99.9%账号存活率保障</span>｜AI智能风控预警
 :::
 
+## 视频查看
+
+- [Telegram](https://t.me/tgxproc/12)
+- [YouTube](https://t.me/tgxproc/12)
+- [Twitter](https://t.me/tgxproc/12)
+- [TikTok](https://t.me/tgxproc/12)
+- [哔哩哔哩](https://t.me/tgxproc/12)
+
 ## Session 批量导入账号
 
 ![](../assets/account/acc_1.png)

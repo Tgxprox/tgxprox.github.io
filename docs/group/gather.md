@@ -1,10 +1,20 @@
-# ⛏️ 批量采集
+# ⛏️ 批量采集（隐藏）
+
+> 支持隐藏成员采集
 
 ::: tip
 全类型用户采集技术｜突破隐私限制｜每小时<span class="counter">10万+</span>数据采集｜自动清洗无效用户
 
 这个采集任务可以采集任何已加入的群组，并且是多线程协调工作，一秒上千条
 :::
+
+## 视频查看
+
+- [Telegram](https://t.me/tgxproc/14)
+- [YouTube](https://t.me/tgxproc/14)
+- [Twitter](https://t.me/tgxproc/14)
+- [TikTok](https://t.me/tgxproc/14)
+- [哔哩哔哩](https://t.me/tgxproc/14)
 
 ## 创建任务
 

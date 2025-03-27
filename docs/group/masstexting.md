@@ -4,6 +4,14 @@
 百万级消息并发能力｜智能时段优化算法｜多媒体内容支持｜<span class="highlight">99%消息到达率保障</span>
 :::
 
+## 视频查看
+
+- [Telegram](https://t.me/tgxproc/14)
+- [YouTube](https://t.me/tgxproc/14)
+- [Twitter](https://t.me/tgxproc/14)
+- [TikTok](https://t.me/tgxproc/14)
+- [哔哩哔哩](https://t.me/tgxproc/14)
+
 ## 创建任务
 
 ![](../assets/masstexting//qunfa_1.png)

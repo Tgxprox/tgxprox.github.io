@@ -20,7 +20,7 @@ export default defineConfig({
         items: [
           {
             text: "更新日志",
-            link: "/blog.md",
+            link: "../version/1.0.0.md",
           },
         ],
       },
@@ -45,7 +45,13 @@ export default defineConfig({
         items: [
           { text: "⚡️ 批量导入", link: "/account/upload.md" },
           { text: "🛡️ 账号管理", link: "/account/manages.md" },
+          { text: "🔎 账号信息", link: "/account/managesinfo.md" },
         ],
+      },
+      {
+        text: "用户管理",
+        collapsed: false,
+        items: [{ text: "🎓 用户列表", link: "/users/manage.md" }],
       },
       {
         text: "群组管理",
@@ -54,7 +60,8 @@ export default defineConfig({
           { text: "📡 群组监听", link: "/group/monitor.md" },
           { text: "🎯 定时群发", link: "/group/masstexting.md" },
           // { text: "🚀 批量创建", link: "/group/create.md" },
-          { text: "⛏️ 批量采集", link: "/group/gather.md" },
+          { text: "🛠️ 批量采集（隐藏）", link: "/group/gather.md" },
+          { text: "⛏️ 批量采集（可见）", link: "/group/gatherVisible.md" },
           { text: "🤖 批量强拉", link: "/group/Invite.md" },
           { text: "🤝 批量加群", link: "/group/join.md" },
           // { text: "🎭 智能吵群", link: "/group/aiinteraction.md" },
