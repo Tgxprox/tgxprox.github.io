@@ -1,7 +1,7 @@
 # 🔥 TG-X Pro 智能营销引擎
 
 <p align="center">
-  <img src="docs/assets/tgxpro.svg" width="200" alt="TG-X Pro Logo">
+  <img src="docs/assets/tgxpro_v2.svg" width="200" alt="TG-X Pro Logo">
 </p>
 
 <h3 align="center">Telegram生态智能增长系统｜日均百万级消息触达｜企业级安全架构</h3>
