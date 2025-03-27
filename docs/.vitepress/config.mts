@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: "/tgxpro_v2.svg",
+    logo: "/favicon.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
