@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "TG-X",
   description: "Telegram 超级工具",
+  base: "/",
   markdown: {
     image: {
       // 默认禁用；设置为 true 可为所有图片启用懒加载。
