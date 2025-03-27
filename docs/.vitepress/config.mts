@@ -12,6 +12,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    logo: "/tgxpro_v2.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
@@ -91,8 +92,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      message: "基于 MIT 许可发布",
+      copyright: `版权所有 © 2019-${new Date().getFullYear()} @Tgxprox`,
     },
   },
 });
