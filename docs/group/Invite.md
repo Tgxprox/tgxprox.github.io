@@ -1,3 +1,8 @@
+---
+title: 批量强拉
+description: telegram 纸飞机 批量一键邀请用户到群组或频道
+---
+
 # 🤖 批量强拉
 
 ::: tip

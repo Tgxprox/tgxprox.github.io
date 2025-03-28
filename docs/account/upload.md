@@ -1,3 +1,8 @@
+---
+title: 账号矩阵
+description: telegram 纸飞机 账号矩阵管理，批量导入账号
+---
+
 # ⚡️ 批量导入
 
 ::: tip

@@ -3,7 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "TG-X",
-  description: "Telegram 超级工具",
+  description:
+    "telegram 纸飞机 账号导入 批量加群 采集隐藏  定时群发 批量监听  采集可见 批量私信 批量转发 群发 飞机群发 飞机引流",
   base: "/",
   markdown: {
     image: {

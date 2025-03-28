@@ -1,3 +1,8 @@
+---
+title: 批量转发
+description: telegram 纸飞机 批量转发消息给多个用户或群组或者频道
+---
+
 # 🌐 批量转发
 
 ::: tip

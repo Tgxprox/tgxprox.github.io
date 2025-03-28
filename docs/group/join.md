@@ -1,3 +1,8 @@
+---
+title: 批量加群
+description: telegram 纸飞机 批量加入群组或频道
+---
+
 # 🤝 批量加群
 
 ::: tip

@@ -1,3 +1,8 @@
+---
+title: 批量私信
+description: telegram 纸飞机 批量私信发送消息给多个用户或群组或者频道
+---
+
 # 🧠 批量私信
 
 ::: tip
