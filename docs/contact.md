@@ -5,6 +5,8 @@ description: telegram 纸飞机 账号导入 批量加群 采集隐藏  定时�
 
 # 👩‍🔧 联系我们
 
+![](./assets/tgxprobg6.png)
+
 - TG-X 官方账号：<a href="https://t.me/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
 - 推特（X）：<a href="https://x.com/Tgxprox" target="_blank" rel="noopener noreferrer">@Tgxprox</a>
 - YouTube：<a href="https://youtube.com/@tgxproy?si=nSpwCm7ATv8ts9sQ" target="_blank" rel="noopener noreferrer">@Tgxproy</a>

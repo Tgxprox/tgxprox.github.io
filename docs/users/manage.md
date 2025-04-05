@@ -9,4 +9,6 @@ description: telegram 纸飞机 百万级别的数据管理，可管理分析采
 这里收集了采集用户的信息，可进行筛选过滤和导出 Excel
 :::
 
+<VideoLink type="智能客服"  />
+
 ![](../assets/account/accllisrinfo.png)

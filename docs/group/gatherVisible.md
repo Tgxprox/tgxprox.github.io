@@ -9,13 +9,7 @@ description: telegram 纸飞机 批量一键采集可见用户的群组，一秒
 可创建批量任务进行一键导出群出成员，适用于可见用户群中，支持超 10,000 + 的群组一键导出
 :::
 
-## 视频查看
-
-- [Telegram](https://t.me/tgxproc/14)
-- [YouTube](https://t.me/tgxproc/14)
-- [Twitter](https://t.me/tgxproc/14)
-- [TikTok](https://t.me/tgxproc/14)
-- [哔哩哔哩](https://t.me/tgxproc/14)
+<VideoLink type="采集可见"  />
 
 ## 创建任务
 

@@ -9,13 +9,7 @@ description: telegram 纸飞机 批量加入群组或频道
 千人级并发加群｜智能路由算法｜<span class="counter">每小时3000+</span>精准加群｜<span class="highlight">98%成功率保障</span>
 :::
 
-## 视频查看
-
-- [Telegram](https://t.me/tgxproc/14)
-- [YouTube](https://t.me/tgxproc/14)
-- [Twitter](https://t.me/tgxproc/14)
-- [TikTok](https://t.me/tgxproc/14)
-- [哔哩哔哩](https://t.me/tgxproc/14)
+<VideoLink type="批量加群"  />
 
 ## 导入群组 / 频道
 

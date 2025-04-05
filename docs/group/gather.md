@@ -13,13 +13,7 @@ description: telegram 纸飞机 批量采集隐藏群组的用户
 这个采集任务可以采集任何已加入的群组，并且是多线程协调工作，一秒上千条
 :::
 
-## 视频查看
-
-- [Telegram](https://t.me/tgxproc/14)
-- [YouTube](https://t.me/tgxproc/14)
-- [Twitter](https://t.me/tgxproc/14)
-- [TikTok](https://t.me/tgxproc/14)
-- [哔哩哔哩](https://t.me/tgxproc/14)
+<VideoLink type="采集隐藏"  />
 
 ## 创建任务
 

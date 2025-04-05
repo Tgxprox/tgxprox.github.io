@@ -9,13 +9,7 @@ description: telegram 纸飞机 在指定的用户或群组或者频道中，定
 百万级消息并发能力｜智能时段优化算法｜多媒体内容支持｜<span class="highlight">99%消息到达率保障</span>
 :::
 
-## 视频查看
-
-- [Telegram](https://t.me/tgxproc/14)
-- [YouTube](https://t.me/tgxproc/14)
-- [Twitter](https://t.me/tgxproc/14)
-- [TikTok](https://t.me/tgxproc/14)
-- [哔哩哔哩](https://t.me/tgxproc/14)
+<VideoLink type="定时群发"  />
 
 ## 创建任务
 

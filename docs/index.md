@@ -20,12 +20,12 @@ hero:
       text: 💁 联系我们
       link: /contact
       class: glow-btn
-    - theme: alt
-      text: ⚡️ 下载软件
-      link: https://github.com/TGX-Android/Telegram-X/releases/download/v0.26.9.1730/Telegram-X-0.26.9.1730.apk
-      class: glow-btn
+    # - theme: alt
+    #   text: ⚡️ 下载软件
+    #   link: https://github.com/TGX-Android/Telegram-X/releases/download/v0.26.9.1730/Telegram-X-0.26.9.1730.apk
+    #   class: glow-btn
     - theme: brand
-      text: 🚀 立即获取
+      text: 🚀 免费测试
       link: https://t.me/Tgxproc
       class: gradient-btn
 
@@ -39,9 +39,12 @@ features:
   - icon: 🎯
     title: 全域精准触达
     details: 百万级消息并发能力｜智能时段优化算法｜多媒体内容支持｜<span class="highlight">99%消息到达率保障</span>
-  - icon: 🚀
-    title: 裂变增长引擎
-    details: 一键创建百个超级群组｜自动生成邀请链路｜智能成员分层｜<span class="highlight">3分钟搭建私域矩阵</span>
+  - icon: 👩
+    title: 智能客服中枢
+    details: <span class="highlight">0.3秒极速响应</span>｜AI语义理解｜<span class="counter">20+</span>矩阵多账号管理<span class="counter">7×24</span>小时不间断服务
+  # - icon: 🚀
+  #   title: 裂变增长引擎
+  #   details: 一键创建百个超级群组｜自动生成邀请链路｜智能成员分层｜<span class="highlight">3分钟搭建私域矩阵</span>
   - icon: ⛏️
     title: 精准用户挖掘
     details: 全类型用户采集技术｜突破隐私限制｜每小时<span class="counter">10万+</span>数据采集｜自动清洗无效用户

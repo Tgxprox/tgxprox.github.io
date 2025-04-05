@@ -10,14 +10,7 @@ description: telegram 纸飞机 批量私信发送消息给多个用户或群组
 :::
 
 
-## 视频查看
-
-- [Telegram](https://t.me/tgxproc/14)
-- [YouTube](https://t.me/tgxproc/14)
-- [Twitter](https://t.me/tgxproc/14)
-- [TikTok](https://t.me/tgxproc/14)
-- [哔哩哔哩](https://t.me/tgxproc/14)
-
+<VideoLink type="批量私信"  />
 
 ## 导入用户
 

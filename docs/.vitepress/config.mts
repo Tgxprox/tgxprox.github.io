@@ -17,7 +17,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/download" },
+      { text: "文档", link: "/ipproxy" },
       {
         text: "v1.0.0",
         items: [
@@ -30,16 +30,16 @@ export default defineConfig({
     ],
 
     sidebar: [
+      // {
+      //   text: "🚀 下载安装",
+      //   link: "/download.md",
+      // },
+      // {
+      //   text: "🚀 激活使用",
+      //   link: "/activeuse.md",
+      // },
       {
-        text: "🛠️ 下载安装",
-        link: "/download.md",
-      },
-      {
-        text: "🚀 激活使用",
-        link: "/activeuse.md",
-      },
-      {
-        text: "🛜 IP代理池",
+        text: "🌊 IP代理池",
         link: "/ipproxy.md",
       },
       {
@@ -54,7 +54,10 @@ export default defineConfig({
       {
         text: "用户管理",
         collapsed: false,
-        items: [{ text: "🎓 用户列表", link: "/users/manage.md" }],
+        items: [
+          { text: "🎓 用户列表", link: "/users/manage.md" },
+          { text: "👩‍🔧 智能客服", link: "/users/AICustomerService.md" },
+        ],
       },
       {
         text: "群组管理",

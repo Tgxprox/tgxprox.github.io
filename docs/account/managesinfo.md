@@ -9,4 +9,7 @@ description: telegram 纸飞机 账号矩阵管理，多账号信息管理
 在这里可以观察导入的所有账号的群组与频道信息，更方便管理账号
 :::
 
+<VideoLink type="账号信息"  />
+
 ![](../assets/account/accinfo.png)
+
