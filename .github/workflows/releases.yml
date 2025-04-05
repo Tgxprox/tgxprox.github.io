@@ -5,7 +5,8 @@ name: TG-X Pro
 on:
   push:
     # 监听所有 tag 推送（通配符 * 匹配任意 tag）
-    tags: ['*']
+    # tags: ['*']
+    branches: [main] # 改为分支触发，或保留 tags 并调整环境规则
 
   # 允许你从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
