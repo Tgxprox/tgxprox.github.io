@@ -18,15 +18,15 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/ipproxy" },
-      {
-        text: "v1.0.0",
-        items: [
-          {
-            text: "更新日志",
-            link: "../version/1.0.0.md",
-          },
-        ],
-      },
+      // {
+      //   text: "v1.0.0",
+      //   items: [
+      //     {
+      //       text: "更新日志",
+      //       link: "../version/1.0.0.md",
+      //     },
+      //   ],
+      // },
     ],
 
     sidebar: [
@@ -91,9 +91,9 @@ export default defineConfig({
       // },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/Tgxprox/TG-X-Pro" },
-    ],
+    // socialLinks: [
+    //   { icon: "github", link: "https://github.com/Tgxprox/TG-X-Pro" },
+    // ],
 
     footer: {
       message: "基于 MIT 许可发布",

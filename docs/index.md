@@ -70,3 +70,5 @@ features:
     title: 内容裂变矩阵
     details: 跨群跨频道智能分发｜热点内容自动抓取｜病毒式传播路径设计｜传播效果可视化
 ---
+
+<PurchaseCardComponent/>
