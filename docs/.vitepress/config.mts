@@ -30,10 +30,10 @@ export default defineConfig({
     ],
 
     sidebar: [
-      // {
-      //   text: "🚀 下载安装",
-      //   link: "/download.md",
-      // },
+      {
+        text: "🚀 安装卸载",
+        link: "/download.md",
+      },
       // {
       //   text: "🚀 激活使用",
       //   link: "/activeuse.md",
