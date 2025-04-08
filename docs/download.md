@@ -33,7 +33,7 @@ description: telegram 纸飞机 账号导入 批量加群 采集隐藏  定时�
 
 ![](./assets/install/win/安装_8.png)
 
-## Windows 卸载
+## Windows 用户卸载
 
 > 右键点击软件
 
