@@ -18,6 +18,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/ipproxy" },
+      { text: "问题", link: "/problem" },
       // {
       //   text: "v1.0.0",
       //   items: [
