@@ -73,11 +73,6 @@ const deflist = [
     ]
 const cardlist = [
   {
-    type: "天",
-    price: "5",
-        list:deflist
-  },
-  {
     type: "月",
     price: "99",
         list:deflist
