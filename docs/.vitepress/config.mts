@@ -48,6 +48,7 @@ export default defineConfig({
         items: [
           { text: "⚡️ 批量导入", link: "/account/upload.md" },
           { text: "🛡️ 账号管理", link: "/account/manages.md" },
+          { text: "📞 手机号管理", link: "/account/phone.md" },
           { text: "🔎 账号信息", link: "/account/managesinfo.md" },
         ],
       },
