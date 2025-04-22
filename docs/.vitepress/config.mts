@@ -65,8 +65,10 @@ export default defineConfig({
         text: "群组管理",
         collapsed: false,
         items: [
+          { text: "👥 群组列表", link: "/group/list.md" },
           { text: "📡 群组监听", link: "/group/monitor.md" },
-          { text: "🎯 定时群发", link: "/group/masstexting.md" },
+          { text: "🎯 定时群发（单个）", link: "/group/masstexting.md" },
+          { text: "🎯 定时群发（批量）", link: "/group/batch_masstexting.md" },
           // { text: "🚀 批量创建", link: "/group/create.md" },
           { text: "🛠️ 批量采集（隐藏）", link: "/group/gather.md" },
           { text: "⛏️ 批量采集（可见）", link: "/group/gatherVisible.md" },
