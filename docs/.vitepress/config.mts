@@ -44,12 +44,21 @@ export default defineConfig({
         link: "/ipproxy.md",
       },
       {
+        text: "🌈 无限多开",
+        link: "/telegram_duokai.md",
+      },
+      {
+        text: "💻 Proxifier",
+        link: "/Proxifier-CN/README_CN.md",
+      },
+      {
         text: "账号管理",
         collapsed: false,
         items: [
           { text: "⚡️ 批量导入", link: "/account/upload.md" },
           { text: "🛡️ 账号管理", link: "/account/manages.md" },
           { text: "📞 手机号管理", link: "/account/phone.md" },
+          { text: "📲 提取协议号", link: "/account/sessions.md" },
           { text: "🔎 账号信息", link: "/account/managesinfo.md" },
         ],
       },
@@ -83,6 +92,37 @@ export default defineConfig({
         items: [
           { text: "🧠 批量私信", link: "/message/sends.md" },
           { text: "🌐 批量转发", link: "/message/forward.md" },
+        ],
+      },
+      {
+        text: "账号说明",
+        collapsed: false,
+        link: "profile/readme.md",
+        items: [
+          {
+            text: "如何在Windows上以TDATA格式登录Telegram账户？简单的分步指南！",
+            link: "/profile/telegram-1.md",
+          },
+          {
+            text: "在macOS和Linux上以TDATA格式登录Telegram账户的分步指南",
+            link: "/profile/telegram-2.md",
+          },
+          {
+            text: "购买后如何确保 Telegram 账户的安全？",
+            link: "/profile/telegram-3.md",
+          },
+          // {
+          //   text: "大规模账户验证和一键下载！ ",
+          //   link: "/profile/telegram-4.md",
+          // },
+          {
+            text: "高效正确地管理多个 Telegram 账户",
+            link: "/profile/telegram-5.md",
+          },
+          {
+            text: "工作Telegram账户时的重要注意事项：你需要知道的内容",
+            link: "/profile/telegram-6.md",
+          },
         ],
       },
       // {
