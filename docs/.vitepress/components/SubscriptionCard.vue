@@ -51,7 +51,11 @@
       </div>
     </div>
 
-    <button class="subscribe-btn">立即订阅</button>
+    <a href="http://t.me/tgxproc" target="_blank" rel="noopener noreferrer">
+      <button class="subscribe-btn">
+        立即订阅
+      </button>
+    </a>
   </div>
 </template>
 
