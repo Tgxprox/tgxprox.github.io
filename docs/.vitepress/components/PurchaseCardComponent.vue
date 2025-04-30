@@ -1,199 +1,126 @@
+<!-- PricingPage.vue -->
 <template>
-  <div class="card-title">
-    准备好体验性价比最高的Telegram营销工具了吗？立即解锁它吧
-  </div>
-  <div class="card-title-item">
-    ⚡️限⚡️时⚡️免⚡️费⚡️测⚡️试⚡️
-  </div>
-
-  <div class="cardlist">
-    <div v-for="item in cardlist" :key="item" :class="'carditem'">
-      <div class="carditem-titile">
-        <h1>
-          {{ item.type }}
-          /
-          {{ item.price }}
-          $
-
-          <span v-if="item.favorable" class="carditem-favorable">
-            已优惠
-            {{ item.favorable }}
-            %
-          </span>
-        </h1>
-      </div>
-      <div class="carditem-content">
-        <div v-for="(listitem) in item.list" :key="listitem"  class="css-175oi2r r-18jsvk2 r-1adg3ll r-18u37iz r-5oul0u">
-          <div
-            dir="ltr"
-            class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-a023e6 r-rjixqe r-16dba41"
-          >
-            <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"
-              >
-              {{listitem}}
-              </span
-            >
-          </div>
-                    <svg
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1gs4q39"
-          >
-            <g>
-              <path
-                d="M9.64 18.952l-5.55-4.861 1.317-1.504 3.951 3.459 8.459-10.948L19.4 6.32 9.64 18.952z"
-              ></path>
-            </g>
-          </svg>
-        </div>
-      </div>
-
-      <a href="http://t.me/tgxproc" class="pay-but" target="_blank" rel="noopener noreferrer">立即订阅</a>
-
+  <div class="pricing-page">
+    <div class="pricing-container">
+      <SubscriptionCard
+        v-for="version in versions"
+        :key="version.name"
+        :version="version"
+        :base-price="basePrice"
+        :border-color="version.color"
+        :compare-target="version.compareTarget"
+        :price-increase="version.priceIncrease"
+      />
     </div>
   </div>
 </template>
 
 <script setup>
-const deflist = [
-        '🌊 IP代理池',
-        '⚡️ 批量导入',
-        '🛡️ 账号管理',
-        '🔎 账号信息',
-        '🎓 用户列表',
-        '👩‍🔧 智能客服',
-        '📡 群组监听',
-        '📞 手机号采集TG用户',
-        '🛠️ 批量采集（隐藏）',
-        '⛏️ 批量采集（可见）',
-        '🤖 批量强拉',
-        '🤝 批量加群',
-        '🧠 批量私信',
-        '🌐 批量转发',
-    ]
-const cardlist = [
-  {
-    type: "月",
-    price: "99",
-        list:deflist
-  },
-  {
-    type: "季",
-    price: "267",
-    favorable: "10",
-        list:deflist
-  },
-  {
-    type: "年",
-    price: "950",
-    favorable: "20",
-        list:deflist
-  },
+import { ref } from "vue";
+import SubscriptionCard from "./SubscriptionCard.vue";
+
+const Base = [
+  "🌊 IP代理池",
+  "⚡️ 批量导入",
+  "🛡️ 账号管理",
+  "🔎 账号信息",
+  "🎓 用户列表",
+  "📡 群组监听",
+  "📞 手机号采集TG用户",
+  "🛠️ 批量采集（隐藏）",
+  "⛏️ 批量采集（可见）",
+  "🎯 定时群发（单个）",
+  "🤖 批量强拉",
+  "🤝 批量加群",
+  "🧠 批量私信",
+  "🌐 批量转发",
 ];
+
+const Advanced = [
+  ...Base,
+  "🌟 智能客服",
+  "🌟 定时群发（批量）",
+  "🌟 群组在线监听（无需登陆）",
+  "🌟 提取协议号",
+];
+
+const SuperVip = [
+  ...Advanced,
+  "💎 多入口代理",
+  "💎 TDATA登陆",
+  "💎 TG无限多开",
+  "💎 一键生成 Proxifier 配置文件",
+  "💎 送永久 Proxifier 中文版本",
+  // "💎 TG无线注册",
+];
+
+const basePrice = ref(99);
+
+// 版本配置
+const versions = ref([
+  {
+    name: "基础版",
+    color: "#3b82f6",
+    priceMultiplier: 1,
+    compareTarget: "",
+    priceIncrease: 0,
+    discounts: {
+      quarterly: 0.1, // 季度优惠10%
+      yearly: 0.2, // 年度优惠20%
+    },
+    equipment: {
+      quarterly: 2, // 季度 2 台设备
+      yearly: 4, // 年度 4 台设备
+    },
+    features: Base,
+  },
+  {
+    name: "高级版",
+    color: "#8b5cf6",
+    priceMultiplier: 1.5, // 比基础版高30%
+    compareTarget: "基础",
+    priceIncrease: 30,
+    discounts: {
+      quarterly: 0.1, // 季度优惠10%
+      yearly: 0.2, // 年度优惠20%
+    },
+    equipment: {
+      quarterly: 3, // 季度 3 台设备
+      yearly: 5, // 年度 5 台设备
+    },
+    features: Advanced,
+  },
+  {
+    name: "超级会员",
+    color: "#f59e0b",
+    priceMultiplier: 1.5 * 1.34, // 比高级版再高10%
+    compareTarget: "高级",
+    priceIncrease: 10,
+    discounts: {
+      quarterly: 0.1, // 季度优惠10%
+      yearly: 0.2, // 年度优惠20%
+    },
+    equipment: {
+      quarterly: 5, // 季度 3 台设备
+      yearly: 7, // 年度 5 台设备
+    },
+    features: SuperVip,
+  },
+]);
 </script>
 
 <style scoped>
-.card-title {
-  width: 100%;
-  height: 100%;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  background: linear-gradient(90deg, #3b82f6, #10b981);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.pricing-container {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.card-title-item {
-      width: 100%;
-  height: 100%;
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-    font-weight: 600;
-  font-size: 1.5rem;
-    color: #979797;
-
+@media (min-width: 768px) {
+  .pricing-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-
-.cardlist {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-.carditem {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  min-width: 280px;
-  max-width: 280px;
-  /* min-height: 600px; */
-  /* background: #f0f3f4; */
-  background: var(--vp-c-bg-soft);
-  transform: scale(0.9);
-  padding: 1rem;
-  border-radius: 1rem;
-  align-content: space-between;
-}
-.css-175oi2r {
-    display: flex;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: .5rem;
-}
-.carditem-titile {
-  width: 100%;
-  height: 10%;
-  text-align: center;
-}
-.carditem-favorable {
-  font-size: 18px;
-  color: #979797;
-}
-.carditem-content {
-  width: 100%;
-
-  height: 75%;
-color: var(    --vp-c-text-1);
-  padding-bottom: 1rem;
-}
-.r-1xvli5t {
-        height: 1.25em;
-}
-.css-146c3p1 {
-    flex: 1;
-}
-
-.r-4qtqp9 {
-    fill: var(    --vp-c-text-1);
-
-}
-.pay-but {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-align-items: center;
-  height: 5rem;
-  font-size: 2rem;
-  font-weight: 800;
-  border-radius: 1rem;
-  text-decoration: none;
-  color: #101419;
-  background: #ffffff;
-}
-
-.pay-but:hover {
-  color: #ffffff;
-  background: #101419;
-}
-.pay-but:active {
-  opacity: 0.9;
-}
-
 </style>

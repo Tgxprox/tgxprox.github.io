@@ -17,7 +17,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/ipproxy" },
+      { text: "文档", link: "/download" },
       { text: "问题", link: "/problem" },
       // {
       //   text: "v1.0.0",
@@ -40,12 +40,20 @@ export default defineConfig({
       //   link: "/activeuse.md",
       // },
       {
-        text: "🌊 IP代理池",
-        link: "/ipproxy.md",
+        text: "IP 管理",
+        items: [
+          { text: "❄️ IP 多入口代理开启", link: "/proxy/multiple_prot.md" },
+          { text: "🌊 IP代理池（专线）", link: "/proxy/ipproxy.md" },
+        ],
       },
       {
-        text: "🌈 无限多开",
-        link: "/telegram_duokai.md",
+        text: "IP 单独使用教程",
+        items: [
+          { text: "v2rayN", link: "/proxy/v2rayN.md" },
+          { text: "V2rayNG", link: "/proxy/v2rayNG.md" },
+          { text: "安卓", link: "/proxy/AnXra.md" },
+          { text: "苹果", link: "/proxy/小火箭.md" },
+        ],
       },
       {
         text: "💻 Proxifier",
@@ -68,6 +76,13 @@ export default defineConfig({
         items: [
           { text: "🎓 用户列表", link: "/users/manage.md" },
           { text: "👩‍🔧 智能客服", link: "/users/AICustomerService.md" },
+        ],
+      },
+      {
+        text: "TG 管理",
+        collapsed: false,
+        items: [
+          { text: "🎓 无限多开", link: "/telegram/unlimited_opening.md" },
         ],
       },
       {
@@ -94,37 +109,37 @@ export default defineConfig({
           { text: "🌐 批量转发", link: "/message/forward.md" },
         ],
       },
-      {
-        text: "账号说明",
-        collapsed: false,
-        link: "profile/readme.md",
-        items: [
-          {
-            text: "如何在Windows上以TDATA格式登录Telegram账户？简单的分步指南！",
-            link: "/profile/telegram-1.md",
-          },
-          {
-            text: "在macOS和Linux上以TDATA格式登录Telegram账户的分步指南",
-            link: "/profile/telegram-2.md",
-          },
-          {
-            text: "购买后如何确保 Telegram 账户的安全？",
-            link: "/profile/telegram-3.md",
-          },
-          // {
-          //   text: "大规模账户验证和一键下载！ ",
-          //   link: "/profile/telegram-4.md",
-          // },
-          {
-            text: "高效正确地管理多个 Telegram 账户",
-            link: "/profile/telegram-5.md",
-          },
-          {
-            text: "工作Telegram账户时的重要注意事项：你需要知道的内容",
-            link: "/profile/telegram-6.md",
-          },
-        ],
-      },
+      // {
+      //   text: "账号说明",
+      //   collapsed: false,
+      //   link: "profile/readme.md",
+      //   items: [
+      //     {
+      //       text: "如何在Windows上以TDATA格式登录Telegram账户？简单的分步指南！",
+      //       link: "/profile/telegram-1.md",
+      //     },
+      //     {
+      //       text: "在macOS和Linux上以TDATA格式登录Telegram账户的分步指南",
+      //       link: "/profile/telegram-2.md",
+      //     },
+      //     {
+      //       text: "购买后如何确保 Telegram 账户的安全？",
+      //       link: "/profile/telegram-3.md",
+      //     },
+      //     // {
+      //     //   text: "大规模账户验证和一键下载！ ",
+      //     //   link: "/profile/telegram-4.md",
+      //     // },
+      //     {
+      //       text: "高效正确地管理多个 Telegram 账户",
+      //       link: "/profile/telegram-5.md",
+      //     },
+      //     {
+      //       text: "工作Telegram账户时的重要注意事项：你需要知道的内容",
+      //       link: "/profile/telegram-6.md",
+      //     },
+      //   ],
+      // },
       // {
       //   text: "超级搜素",
       //   collapsed: false,

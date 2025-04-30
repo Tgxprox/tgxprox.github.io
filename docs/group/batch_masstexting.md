@@ -1,15 +1,15 @@
 ---
-title: 定时群发
+title: 批量定时群发
 description: telegram 纸飞机 在指定的用户或群组或者频道中，定时发送消息
 ---
 
-# 🎯 定时群发
+# 🎯 批量定时群发
 
 ::: tip
 百万级消息并发能力｜智能时段优化算法｜多媒体内容支持｜<span class="highlight">99%消息到达率保障</span>
 :::
 
-<VideoLink type="定时群发"  />
+<VideoLink type="批量定时群发"  />
 
 ## 创建任务
 

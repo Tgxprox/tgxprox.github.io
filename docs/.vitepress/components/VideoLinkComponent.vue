@@ -1,23 +1,148 @@
 <template>
   <div class="social-list">
-  <div class="iframe-box">
-    <!-- 动态组件渲染 -->
-    <iframe v-if="props.type === 'IP代理'"  width="688" height="385" src="https://www.youtube.com/embed/GdFz1vICgLg?si=Y7uFbueWsH7_p5RY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '批量加群'"  width="688" height="385"  src="https://www.youtube.com/embed/LgQpJaswfbM?si=7gTkC6BEhmTc7PFx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '批量私信'"  width="688" height="385" src="https://www.youtube.com/embed/bo8NCCHfufs?si=jl1zsSdCoPgoQkx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '批量转发'"  width="688" height="385" src="https://www.youtube.com/embed/bo8NCCHfufs?si=jl1zsSdCoPgoQkx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '批量强拉'"  width="688" height="385" src="https://www.youtube.com/embed/mqlqS3sT_1g?si=gRvXmZOzPbLBAErW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '群组监听'"  width="688" height="385" src="https://www.youtube.com/embed/b9VspSXWL9w?si=fFXruy1hr0hAWD_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '定时群发'"  width="688" height="385" src="https://www.youtube.com/embed/udpkS0AV0-Y?si=r0oHS8sV1iImDZFt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '采集隐藏'"  width="688" height="385" src="https://www.youtube.com/embed/k4DFzRAX2aw?si=jOQeaSblu3mzFulL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '采集可见'"  width="688" height="385" src="https://www.youtube.com/embed/N3hP7iRC9wg?si=fn6Adb7WEmTSK8uO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '智能客服'"  width="688" height="385" src="https://www.youtube.com/embed/b5Sq5gZtKCE?si=OKVWZXlczT7x6sXL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '账号矩阵'"  width="688" height="385" src="https://www.youtube.com/embed/Btnn0a42YhM?si=t9L-CzlftLceYFAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe v-if="props.type === '手机号采集'"  width="688" height="385" src="https://www.youtube.com/embed/PUfhsrx8tV8?si=VM6OpTSdRKCUmznc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+    <div class="iframe-box">
+      <!-- 动态组件渲染 -->
+      <iframe
+        v-if="props.type === 'IP代理'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/GdFz1vICgLg?si=Y7uFbueWsH7_p5RY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '批量加群'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/LgQpJaswfbM?si=7gTkC6BEhmTc7PFx"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '批量私信'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/bo8NCCHfufs?si=jl1zsSdCoPgoQkx5"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '批量转发'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/bo8NCCHfufs?si=jl1zsSdCoPgoQkx5"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '批量强拉'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/mqlqS3sT_1g?si=gRvXmZOzPbLBAErW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '群组监听'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/b9VspSXWL9w?si=fFXruy1hr0hAWD_U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '定时群发'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/udpkS0AV0-Y?si=r0oHS8sV1iImDZFt"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '采集隐藏'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/k4DFzRAX2aw?si=jOQeaSblu3mzFulL"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '采集可见'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/N3hP7iRC9wg?si=fn6Adb7WEmTSK8uO"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '智能客服'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/b5Sq5gZtKCE?si=OKVWZXlczT7x6sXL"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '账号矩阵'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/Btnn0a42YhM?si=t9L-CzlftLceYFAP"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        v-if="props.type === '手机号采集'"
+        width="688"
+        height="385"
+        src="https://www.youtube.com/embed/PUfhsrx8tV8?si=VM6OpTSdRKCUmznc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe v-if="props.type === '无限多开'" width="688" height="385" src="https://www.youtube.com/embed/1FwjgSWyqwo?si=Fn4blH1ov6Kt190R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe v-if="props.type === '提取协议号'" width="688" height="385" src="https://www.youtube.com/embed/miS0TqrP6cc?si=HeImgmpqXZCH-HUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe v-if="props.type === '群组在线监听'" width="688" height="385" src="https://www.youtube.com/embed/miPMLMd0A40?si=erLdXr1SG5HiO3mI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe v-if="props.type === '批量定时群发'" width="688" height="385" src="https://www.youtube.com/embed/BR-UJVmDWek?si=pLMeZtgkok4bbnPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe v-if="props.type === '多入口代理'" width="688" height="385" src="https://www.youtube.com/embed/jswcI__M9bk?si=PL5P5dk51gb03ps8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     <ul>
       <li
-        v-for="(item) in socialItems"
+        v-for="item in socialItems"
         :key="item.name"
         class="social-item"
         :style="{ '--hover-color': colors[item.name] }"
@@ -31,33 +156,36 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { computed } from 'vue'
+import { ref } from "vue";
+import { computed } from "vue";
 
 const props = defineProps({
   type: {
     type: String,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 
 const socialItems = ref([
-  { name: 'Telegram', url: 'https://t.me/tgxproc' },
-  { name: 'YouTube', url: 'https://youtube.com/@tgxproy?si=9xD97Ysit8W5w21L' },
-  { name: 'FaceBook', url: 'https://www.facebook.com/profile.php?id=61574752421705' },
-  { name: 'Twitter', url: 'https://x.com/Tgxprox' },
-  { name: 'TikTok', url: 'https://t.me/tgxproc' },
-  { name: '哔哩哔哩', url: 'https://t.me/tgxproc' }
-])
+  { name: "Telegram", url: "https://t.me/tgxproc" },
+  { name: "YouTube", url: "https://youtube.com/@tgxproy?si=9xD97Ysit8W5w21L" },
+  {
+    name: "FaceBook",
+    url: "https://www.facebook.com/profile.php?id=61574752421705",
+  },
+  { name: "Twitter", url: "https://x.com/Tgxprox" },
+  { name: "TikTok", url: "https://t.me/tgxproc" },
+  { name: "哔哩哔哩", url: "https://t.me/tgxproc" },
+]);
 
 const colors = {
-  'Telegram': '#0088cc',
-  'FaceBook': '#0088cc',
-  'YouTube': '#ff0000',
-  'Twitter': '#1da1f2',
-  'TikTok': '#ff0050',
-  '哔哩哔哩': '#fb7299'
-}
+  Telegram: "#0088cc",
+  FaceBook: "#0088cc",
+  YouTube: "#ff0000",
+  Twitter: "#1da1f2",
+  TikTok: "#ff0050",
+  哔哩哔哩: "#fb7299",
+};
 </script>
 
 <style scoped>

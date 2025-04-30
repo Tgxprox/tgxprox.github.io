@@ -13,7 +13,7 @@ hero:
     - 精准获客率提升300%
     - 企业级安全防护
   image:
-    src: /tgxvpro_v2.png
+    src: /tgxpro_v3.png
     alt: TG-X智能营销系统
   actions:
     - theme: alt
