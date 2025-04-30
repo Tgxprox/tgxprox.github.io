@@ -98,7 +98,7 @@ session 账号文件，与对应的 Json 信息文件，从号商购买获取
 ## 选择 代理IP
 
 ::: info
-代理IP导入请看 👉 [代理IP导入](../ipproxy.md)
+代理IP导入请看 👉 [代理IP导入](../proxy/ipproxy.md)
 :::
 
 ![](../assets/account/acc_9.png)
