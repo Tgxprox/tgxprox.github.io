@@ -35,6 +35,10 @@ export default defineConfig({
         text: "🚀 安装卸载",
         link: "/download.md",
       },
+      {
+        text: "🫆 关闭 windows 安全中心",
+        link: "/windows.md",
+      },
       // {
       //   text: "🚀 激活使用",
       //   link: "/activeuse.md",
