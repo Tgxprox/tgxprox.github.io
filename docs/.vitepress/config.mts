@@ -53,6 +53,7 @@ export default defineConfig({
       {
         text: "IP 单独使用教程",
         items: [
+          { text: "ipinfo", link: "/proxy/ipinfo.md" },
           { text: "v2rayN", link: "/proxy/v2rayN.md" },
           { text: "V2rayNG", link: "/proxy/v2rayNG.md" },
           { text: "安卓", link: "/proxy/AnXra.md" },
