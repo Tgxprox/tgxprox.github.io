@@ -50,6 +50,19 @@ description: telegram 纸飞机 账号矩阵管理，多账号导入
 
 ![](../assets/account/acc_m_7.png)
 
+## 检测账号
+
+::: tip
+检测账号是否被封禁、限制、冻结等
+:::
+
+![](../assets/account/acc_m_8.png)
+
+### 查看原因
+
+![](../assets/account/acc_m_9.png)
+
+## 完成
 
 ::: tip
 一切准备就绪后即可开始矩阵操作

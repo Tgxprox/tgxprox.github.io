@@ -47,7 +47,7 @@
         allowfullscreen
       ></iframe>
       <iframe
-        v-if="props.type === '批量强拉'"
+        v-if="props.type === '单个强拉'"
         width="688"
         height="385"
         src="https://www.youtube.com/embed/mqlqS3sT_1g?si=gRvXmZOzPbLBAErW"

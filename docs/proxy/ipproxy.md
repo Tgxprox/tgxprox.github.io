@@ -10,3 +10,13 @@ description: telegram 纸飞机 账号导入 批量加群 采集隐藏  定时�
 :::
 
 <VideoLink type="IP代理"  />
+
+## 导入专线IP
+
+![](../assets/ip_proxy/proxy_1.png)
+
+![](../assets/ip_proxy/proxy_2.png)
+
+## 批量导入
+
+![](../assets/ip_proxy/proxy_3.png)

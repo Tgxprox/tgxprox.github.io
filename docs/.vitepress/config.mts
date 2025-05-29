@@ -18,7 +18,6 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/download" },
-      { text: "问题", link: "/problem" },
       // {
       //   text: "v1.0.0",
       //   items: [
@@ -35,34 +34,24 @@ export default defineConfig({
         text: "🚀 安装卸载",
         link: "/download.md",
       },
-      {
-        text: "🫆 关闭 windows 安全中心",
-        link: "/windows.md",
-      },
       // {
-      //   text: "🚀 激活使用",
-      //   link: "/activeuse.md",
+      //   text: "💎 Telegram 使用教程",
+      //   link: "/telegram.md",
       // },
       {
-        text: "IP 管理",
+        text: "代理管理",
         items: [
           { text: "❄️ IP 多入口代理开启", link: "/proxy/multiple_prot.md" },
           { text: "🌊 IP代理池（专线）", link: "/proxy/ipproxy.md" },
+          { text: "💯 免费代理", link: "/proxy/free_ipproxy.md" },
         ],
       },
       {
-        text: "IP 单独使用教程",
+        text: "TG 管理",
+        collapsed: false,
         items: [
-          { text: "ipinfo", link: "/proxy/ipinfo.md" },
-          { text: "v2rayN", link: "/proxy/v2rayN.md" },
-          { text: "V2rayNG", link: "/proxy/v2rayNG.md" },
-          { text: "安卓", link: "/proxy/AnXra.md" },
-          { text: "苹果", link: "/proxy/小火箭.md" },
+          { text: "🎓 无限多开", link: "/telegram/unlimited_opening.md" },
         ],
-      },
-      {
-        text: "💻 Proxifier",
-        link: "/Proxifier-CN/README_CN.md",
       },
       {
         text: "账号管理",
@@ -84,10 +73,13 @@ export default defineConfig({
         ],
       },
       {
-        text: "TG 管理",
+        text: "群组功能（独家）",
         collapsed: false,
         items: [
-          { text: "🎓 无限多开", link: "/telegram/unlimited_opening.md" },
+          { text: "🚀 批量创建", link: "/group/batch_create.md" },
+          { text: "🎯 定时群发（批量）", link: "/group/batch_masstexting.md" },
+          { text: "🛠️ 批量采集（隐藏）", link: "/group/gather.md" },
+          { text: "🤖 批量强拉", link: "/group/batch_Invite.md" },
         ],
       },
       {
@@ -97,11 +89,8 @@ export default defineConfig({
           { text: "👥 群组列表", link: "/group/list.md" },
           { text: "📡 群组监听", link: "/group/monitor.md" },
           { text: "🎯 定时群发（单个）", link: "/group/masstexting.md" },
-          { text: "🎯 定时群发（批量）", link: "/group/batch_masstexting.md" },
-          // { text: "🚀 批量创建", link: "/group/create.md" },
-          { text: "🛠️ 批量采集（隐藏）", link: "/group/gather.md" },
           { text: "⛏️ 批量采集（可见）", link: "/group/gatherVisible.md" },
-          { text: "🤖 批量强拉", link: "/group/Invite.md" },
+          { text: "🤖 单个强拉", link: "/group/Invite.md" },
           { text: "🤝 批量加群", link: "/group/join.md" },
           // { text: "🎭 智能吵群", link: "/group/aiinteraction.md" },
         ],
@@ -112,6 +101,30 @@ export default defineConfig({
         items: [
           { text: "🧠 批量私信", link: "/message/sends.md" },
           { text: "🌐 批量转发", link: "/message/forward.md" },
+        ],
+      },
+      {
+        text: "IP 单独使用教程",
+        items: [
+          { text: "ipinfo", link: "/proxy/ipinfo.md" },
+          { text: "v2rayN", link: "/proxy/v2rayN.md" },
+          { text: "V2rayNG", link: "/proxy/v2rayNG.md" },
+          { text: "安卓", link: "/proxy/AnXra.md" },
+          { text: "苹果", link: "/proxy/小火箭.md" },
+        ],
+      },
+      {
+        text: "💻 Proxifier",
+        link: "/Proxifier-CN/README_CN.md",
+      },
+      {
+        text: "问题",
+        items: [
+          {
+            text: "关闭 windows 安全中心",
+            link: "/windows.md",
+          },
+          { text: "常见问题", link: "/problem" },
         ],
       },
       // {

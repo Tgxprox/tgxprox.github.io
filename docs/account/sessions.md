@@ -13,3 +13,14 @@ description: telegram 纸飞机 手机号矩阵管理，多手机号导入 提�
 
 <VideoLink type="提取协议号"  />
 
+## 输入手机号选择代理
+
+![](../assets/account/sss_1.png)
+
+## 输入验证码和二级密码
+
+![](../assets/account/sss_2.png)
+
+## 等待提取
+
+![](../assets/account/sss_3.png)

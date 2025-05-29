@@ -11,42 +11,22 @@ description: telegram 纸飞机 在指定的用户或群组或者频道中，定
 
 <VideoLink type="批量定时群发"  />
 
-## 创建任务
+## 导入群链接
 
-![](../assets/masstexting//qunfa_1.png)
+![](../assets/masstexting/batch_masstexting_1.png)
 
 ## 选择账号
 
-![](../assets/masstexting//qunfa_2.png)
+> 根据你的需求去设置平分或独享
 
-## 复制目标群组链接
+![](../assets/masstexting/batch_masstexting_2.png)
 
-![](../assets/masstexting//qunfa_3.png)
+## 设置发送信息
 
-## 设置发送内容
+### 发送文本
 
-> [!WARNING]
-> ⚠️ 注意这里的相隔时间是以秒为单位，1000 = 1000 秒，大家请计算好相隔时间并转化成秒来执行
+![](../assets/masstexting/batch_masstexting_3.png)
 
-![](../assets/masstexting//qunfa_4.png)
+### 转发消息
 
-> [!IMPORTANT]
-> 可以看到我刚刚设置的每隔一秒执行，运行非常快
-
-![](../assets/masstexting//qunfa_5.png)
-
-> [!WARNING]
-> ⚠️ 注意在创建任务的同时会立即开启任务
-
-## 任务列表
-
-![](../assets/masstexting//qunfa_6.png)
-
-::: tip
-创建任务后的数据会保存在本地数据库，可实现：
-
-- ✅ 自定义启动任务
-- ✅ 随时暂停任务
-- ✅ 多次编辑任务
-- ✅ 删除任务
-:::
+![](../assets/masstexting/batch_masstexting_4.png)

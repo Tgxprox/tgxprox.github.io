@@ -88,3 +88,11 @@ html {
     transform: translateY(-10px);
   }
 }
+
+.medium-zoom-image {
+  z-index: 9999 !important;
+}
+
+.medium-zoom-overlay {
+  z-index: 999 !important;
+}
