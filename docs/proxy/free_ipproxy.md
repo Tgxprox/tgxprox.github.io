@@ -49,6 +49,6 @@ description: telegram 纸飞机 账号导入 批量加群 采集隐藏  定时�
 [快连加速器](https://letsvpn.world/)
 
 > 苹果手机使用网络加速器 VPN
-苹果手机需要修改 Apple ID 到香港或其他国家，也可以登录共享的 Apple ID [id.chat444.com](id.chat444.com)
+苹果手机需要修改 Apple ID 到香港或其他国家，也可以登录共享的 Apple ID [id.chat444.com](https://id.apple02.com/)
 
 海外 Apple ID 共享：使用国外 Apple ID 登录苹果应用商店 App Store 搜索 白鲨加速（免费 1 月）、快连 VPN、小火箭（可连免费机场）。
