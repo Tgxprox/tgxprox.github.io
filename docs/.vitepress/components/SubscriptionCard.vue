@@ -7,36 +7,17 @@
       <!-- 月度基础价 -->
       <div class="base-price">
         <div class="monthly-price">
-          ${{ monthlyPrice.toFixed(0) }}<span class="price-unit">/月</span>
+          ${{ monthlyPrice.toFixed(0) }}
         </div>
         <!-- <div class="price-compare">季度优惠 10%｜年度优化20%</div> -->
       </div>
 
       <!-- 周期价格 -->
-      <div class="period-prices">
-        <div
-          v-for="(period, index) in pricingPeriods"
-          :key="index"
-          class="period-item"
-        >
-          <div class="price-row">
-            <span class="period-label"
-              >{{ period.label }} （{{ period.equipment }} 台设备）
-            </span>
-            <div class="price-group">
-              <div class="original-price" v-if="period.showOriginal">
-                ${{ originalPrices[index].toFixed(0) }}
-              </div>
-              <div class="final-price">
-                ${{ periodPrices[index].toFixed(0) }}
-              </div>
-            </div>
-          </div>
-          <!-- <div v-if="period.discount" class="discount-tag">
-          立省 {{ period.discount * 100 }}%
-        </div> -->
-        </div>
-      </div>
+      <!-- <div class="period-prices">
+          <span class="period-label"
+            >1 台设备
+          </span>
+      </div> -->
 
       <!-- 功能列表 -->
       <div class="features">
@@ -64,44 +45,15 @@ import { computed } from "vue";
 
 const props = defineProps({
   version: Object,
-  basePrice: Number,
   borderColor: String,
-  compareTarget: String,
-  priceIncrease: Number,
 });
 
-// 价格周期配置
-const pricingPeriods = computed(() => [
-  {
-    label: "季度",
-    months: 3,
-    discount: props.version.discounts.quarterly,
-    equipment: props.version.equipment.quarterly,
-    showOriginal: props.version.discounts.quarterly < 1,
-  },
-  {
-    label: "年度",
-    months: 12,
-    equipment: props.version.equipment.yearly,
-    discount: props.version.discounts.yearly,
-    showOriginal: props.version.discounts.yearly < 1,
-  },
-]);
 
 // 当前版本月单价
 const monthlyPrice = computed(
-  () => props.basePrice * props.version.priceMultiplier
+  () => props.version.priceMultiplier
 );
 
-// 各周期原价（无折扣）
-const originalPrices = computed(() =>
-  pricingPeriods.value.map((p) => monthlyPrice.value * p.months)
-);
-
-// 各周期实际价格（含折扣）
-const periodPrices = computed(() =>
-  originalPrices.value.map((p, i) => p * (1 - pricingPeriods.value[i].discount))
-);
 </script>
 
 <style scoped>
